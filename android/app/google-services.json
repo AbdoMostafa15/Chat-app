@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "167403882189",
+    "firebase_url": "https://login-and-sign-in-app-default-rtdb.firebaseio.com",
+    "project_id": "login-and-sign-in-app",
+    "storage_bucket": "login-and-sign-in-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167403882189:android:ce32d00e676ca0d1914b84",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5wuDBJzcZcztqLq7TluyXWRAZzM0vmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167403882189:android:2f1fa0fdac5b80d6914b84",
+        "android_client_info": {
+          "package_name": "com.example.karta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5wuDBJzcZcztqLq7TluyXWRAZzM0vmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

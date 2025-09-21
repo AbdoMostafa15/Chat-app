@@ -1,0 +1,44 @@
+name: chatapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.1
+
+  # Extra features
+  image_picker: ^1.1.2        # pick images from gallery / camera
+  file_picker: ^8.1.2         # pick documents (pdf, doc, etc.)
+  permission_handler: ^11.3.1 # handle mic/camera/storage permissions
+  record: ^5.1.1              # record voice messages
+  path_provider: ^2.1.3       # save temp files
+  firebase_storage: ^13.0.1
+  modal_progress_hud_nsn: ^0.5.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/scholar.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
